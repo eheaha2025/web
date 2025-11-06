@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EHE AHA MEME — No fud just fun</title>
+  <meta name="description" content="EHE AHA — CA, TikTok, lyrics" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .neon { text-shadow: 0 0 8px rgba(255,255,255,0.12), 0 0 24px rgba(255,0,150,0.08); }
+    .pulse-lyric { animation: pulse 1.2s infinite; }
+    @keyframes pulse { 0% { opacity: .85; transform: translateY(0)} 50% { opacity:1; transform: translateY(-4px)} 100% { opacity:.85; transform: translateY(0)} }
+    .glass { background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02)); backdrop-filter: blur(6px);} 
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-slate-900 via-purple-900 to-pink-800 text-white flex items-center justify-center p-6">
+  <div class="w-full max-w-4xl rounded-3xl shadow-2xl border border-white/10 overflow-hidden">
+    <header class="p-6 glass text-center">
+      <h1 class="text-4xl font-extrabold neon mb-2">EHE AHA 💎</h1>
+      <p class="text-sm text-white/70">Official website — Contract, TikTok, and Chant</p>
+    </header>
+
+    <main class="p-6 space-y-6">
+      <!-- CONTRACT -->
+      <section id="contract" class="glass p-6 rounded-2xl border border-white/6 text-center">
+        <h2 class="text-xl font-semibold mb-2">Contract Address</h2>
+        <div class="bg-white/10 p-4 rounded-lg font-mono text-sm inline-block">0x▓▓▓░░░░░░░░░░░░</div>
+      </section>
+
+      <!-- VIDEO -->
+      <section id="video" class="rounded-2xl overflow-hidden border border-white/8">
+        <div class="p-4 bg-white/6">
+          <h2 class="text-lg font-semibold text-center">TikTok Video</h2>
+        </div>
+        <div class="aspect-video bg-black/70">
+          <iframe
+            src="https://www.tiktok.com/embed/v3/7565662499882798354"
+            width="100%"
+            height="100%"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- LYRICS -->
+      <section id="lyrics" class="glass p-6 rounded-2xl border border-white/6 text-center">
+        <h2 class="text-xl font-bold mb-4">Lyrics</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="p-4 rounded-xl bg-gradient-to-r from-white/3 to-white/5 border border-white/5 pulse-lyric">EHE EHAHAA EHAHAA</div>
+          <div class="p-4 rounded-xl bg-gradient-to-r from-white/3 to-white/5 border border-white/5 pulse-lyric">ÉHOO EHOHO</div>
+          <div class="p-4 rounded-xl bg-gradient-to-r from-white/3 to-white/5 border border-white/5 pulse-lyric">ÉHÉ HÈHÈHÈEE</div>
+          <div class="p-4 rounded-xl bg-gradient-to-r from-white/3 to-white/5 border border-white/5 pulse-lyric">ÈHÈ HÈHÈE</div>
+          <div class="p-4 rounded-xl bg-gradient-to-r from-white/3 to-white/5 border border-white/5 pulse-lyric">AHA HAHAHA</div>
+          <div class="p-4 rounded-xl bg-gradient-to-r from-white/3 to-white/5 border border-white/5 pulse-lyric">HOHOHO HOHOHO</div>
+          <div class="p-4 rounded-xl bg-gradient-to-r from-white/3 to-white/5 border border-white/5 pulse-lyric">EHE HEHEHAA</div>
+          <div class="p-4 rounded-xl bg-gradient-to-r from-white/3 to-white/5 border border-white/5 pulse-lyric">AHEHEHEE</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="p-4 text-xs text-white/60 text-center border-t border-white/6">© 2025 EHEAHA Built with vibes.</footer>
+  </div>
+</body>
+</html>
